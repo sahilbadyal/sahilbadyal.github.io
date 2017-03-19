@@ -5,9 +5,9 @@ tagline: know me more :)
 ---
 {% include JB/setup %}
 
-Hello peeps!
+Hello All!
 
-I am Sahil Badyal, a Computer Science undergraduate from [National Institute of Technology Hamirpur](http://www.nith.ac.in) in DevBhumi Himachal Pradesh.My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
+I am Sahil Badyal, a software developer at [Drishti Soft. Solutions Pvt. Ltd.](https://www.ameyo.com) in Gurgaon. My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
  
 This blog is my virtual window to the world. Hope you enjoy reading it as much as I enjoy writing it. Happy Reading :)
 

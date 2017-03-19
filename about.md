@@ -9,10 +9,9 @@ group: navigation
 Here is some more information about me.
 
 
-
 ###My Alma Mater
 
-I am a proud alumnus of [JK Public School Kunjwani](http://jkpublicschool.in) and [Sacred Heart Convent School](https://www.facebook.com/SHCSBILLAWAR).
+I am an alumnus of [JK Public School Kunjwani](http://jkpublicschool.in) and [Sacred Heart Convent School](https://www.facebook.com/SHCSBILLAWAR). I completed by B.Tech from [National Institute of Technology Hamirpur (H.P.)](http://nith.ac.in).
 
 ###My General Interests
 
@@ -20,13 +19,12 @@ I am interested in reading about aliens, cosmos, physics, technology, and lots o
 
 ###My Academic Interests
 
-My academic interests include :
+My interests include :
 
 1. Machine Learning
-2. Computer Architecture
-3. Algorithms and their design
-4. Server-Side development and
-5. Cloud Computing
+2. Designing Sofware Solutions
+3. Computer Architecture
+4. Algorithms and their design 
 
 ###My Hobbies
 
