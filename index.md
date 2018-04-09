@@ -7,7 +7,7 @@ tagline: know me more :)
 
 <style type="text/css">
   .btn {
-    background-color: #BADA55
+    background-color: #BADA55;
     border: none;
     color: white;
     padding: 15px 32px;
