@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sahil Badyal
+title: Hello Everyone!
 tagline: know me more :)
 ---
 {% include JB/setup %}
@@ -26,8 +26,6 @@ tagline: know me more :)
 
 ![sahilbadyal](assets/images/sahil_badyal.JPG){:class="img-responsive"}
 
-
-Hello Everyone!
 
 I am Sahil Badyal, a Machine Learning Engineer at [Ameyo](https://www.ameyo.com) in Gurgaon. I completed by bachelors from [National Institute of Technology, Hamirpur](http://nith.ac.in). My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
 
