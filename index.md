@@ -16,9 +16,15 @@ tagline: know me more :)
     display: inline-block;
     font-size: 16px;
   }
+
+  .img-responsive {
+    width: 22%;
+    float: left;
+    margin-right: 10px;
+  }
 </style>
 
-![sahilbadyal](assets/images/sahil_short.jpg){:class="img-responsive"}
+![sahilbadyal](assets/images/sahil_badyal.JPG){:class="img-responsive"}
 
 
 Hello Everyone!
