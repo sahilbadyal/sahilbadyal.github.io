@@ -5,16 +5,14 @@ tagline: know me more :)
 ---
 {% include JB/setup %}
 
-Hello All!
+Hello Everyone!
 
 I am Sahil Badyal, a Machine Learning Engineer at [Ameyo](https://www.ameyo.com) in Gurgaon. I completed by bachelors from [National Institute of Technology, Hamirpur](http://nith.ac.in). My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
 
-I am currently interested in Natural Language Processing and deep learing.
+I am currently interested in Natural Language Processing and Deep Learning.
 
-[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/SahilBadyal_CV_March_18.pdf) [linkedIn](https://www.linkedin.com/in/sahilbadyal) [email](mailto:sbadyals@gmail.com)
+[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/SahilBadyal_CV_March_18.pdf)]{: .btn}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn}  [email](mailto:me@sahilbadyal.com){: .btn}
  
-This blog is my virtual window to the world. Hope you enjoy reading it as much as I enjoy writing it. Happy Reading :)
-
 
 ###My Posts
 
