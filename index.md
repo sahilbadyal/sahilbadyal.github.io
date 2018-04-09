@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome To My Blog
+title: Sahil Badyal
 tagline: know me more :)
 ---
 {% include JB/setup %}
@@ -17,6 +17,8 @@ tagline: know me more :)
     font-size: 16px;
   }
 </style>
+
+![sahilbadyal](assets/images/sahil_short.jpg){:class="img-responsive"}
 
 
 Hello Everyone!
