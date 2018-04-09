@@ -7,7 +7,7 @@ tagline: know me more :)
 
 <style type="text/css">
   .btn {
-    background-color: #4CAF50; /* Green */
+    background-color: #BADA55
     border: none;
     color: white;
     padding: 15px 32px;
@@ -25,7 +25,7 @@ I am Sahil Badyal, a Machine Learning Engineer at [Ameyo](https://www.ameyo.com)
 
 I am currently interested in Natural Language Processing and Deep Learning.
 
-[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/SahilBadyal_CV_March_18.pdf)]{: .btn}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn}  [email](mailto:me@sahilbadyal.com){: .btn}
+[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/SahilBadyal_CV_March_18.pdf){: .btn}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn}  [email](mailto:me@sahilbadyal.com){: .btn}
  
 
 ###My Posts
