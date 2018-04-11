@@ -31,10 +31,10 @@ I am Sahil Badyal, a Machine Learning Engineer at [Ameyo](https://www.ameyo.com)
 
 I am currently interested in Natural Language Processing and Deep Learning.
 
-[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/SahilBadyal_CV_March_18.pdf){: .btn target="_blank"} [GitHub](https://github.com/sahilbadyal){: .btn target="_blank"}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn target="_blank"}  [Email](mailto:me@sahilbadyal.com){: .btn target="_blank"}
+[CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/Sahil_Badyal_resume.pdf){: .btn target="_blank"} [GitHub](https://github.com/sahilbadyal){: .btn target="_blank"}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn target="_blank"}  [Email](mailto:me@sahilbadyal.com){: .btn}
  
 
-###My Posts
+### My Posts ###
 
 <ul class="posts">
   {% for post in site.posts %}
