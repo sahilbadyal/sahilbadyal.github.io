@@ -12,9 +12,9 @@ This bizarre thought came to me when I stumbled upon a tweet by some famous cele
 
 But our lifestyle has changed in the last century with the advancements in transportation and communication technology. We are no longer accustomed to walking 10 miles, I highly doubt even 1-2 miles. With our bodies not genetically evolved for this change, are we moving towards the doom of homo sapiens? With technologies like VR, it's quite possible we might never have to walk again. We could comfortably sit on our sofa and be anywhere we want; do anything we wish. Or like the ever-evolving creatures that we are, our genes will learn and adapt to this lifestyle. It is this "learning capability" of all life forms that made me pen down this analogy. But I am not the first one, historically AI has been inspired by evolution, notably, Genetic Algorithms exploit this amazing phenomenon to explore search space and finding an optimal solution. But, this article is a reverse analogy and maps deep learning and evolution.
 
-So, let's assume life is indeed a big deep learning model, trying to optimize a cost function. But what? Answering this is the root of this analogy. But let's defer it for now and move on to evolution first. Wikipedia defines evolution as "a change in the heritable characteristics of biological populations over successive generations". Notice here, how words "change", "heritable characteristics of biological populations", "over successive generations" easily map to "change","parameters","epocs/iterations". So, the very definition is easily mapped to a deep learning. This is a good start, time to dig deep into this analogy.
+You might want to know about (deeplearning)[https://en.wikipedia.org/wiki/Deep_learning] if you are unaware. So, let's assume life is indeed a big deep learning model, trying to optimize a cost function. But what? Answering this is the root of this analogy. But let's defer it for now and move on to evolution first. Wikipedia defines evolution as "a change in the heritable characteristics of biological populations over successive generations". Notice here, how words "change", "heritable characteristics of biological populations", "over successive generations" easily map to "change","parameters","epocs/iterations". So, the very definition is easily mapped to a deep learning. This is a good start, time to dig deep into this analogy.
 
-Darwin in his book "The origin of Species" talks about two main points:
+Darwin in his book ("The origin of Species")[https://en.wikipedia.org/wiki/On_the_Origin_of_Species] talks about two main points:
 1.  All life on Earth is connected and related to each other
 2. Modifications of populations by natural selection, where some traits were favored in an environment over others
 
@@ -26,9 +26,9 @@ This model, does not need separate training as it continuously trains by the bir
 
 Survival function has to be maximized for any epoc.  The ultimate aim of evolution is to increase the survival. Loss function will be inverse of Survival function which is extinction function. But like every algorithm, some features/representations are unable to optimize this function and hence are erased and replaced by new representations.
 
-Since this entire architecture is having layers of parameters having tree-like structure, it is quite apt to call it a  deep learning algorithm. I am quite sure we will keep evolving and adjusting until this  model is killed by OOM. In that case we hope we will find a new machine to run this model.
+Since this entire architecture is having layers of parameters, with every layer holing feature representation, and having tree-like structure, it is quite apt to call it a  deep learning algorithm. I am quite sure we will keep evolving and adjusting until this  model is killed by OOM. In that case I hope we will find a new machine to run this model.
 
 In the words of Elon Musk
 
-"It's OK to have your eggs in one basket as long as you control what happens to that basket."
+>"It's OK to have your eggs in one basket as long as you control what happens to that basket."
  
