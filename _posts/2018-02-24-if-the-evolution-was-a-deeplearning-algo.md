@@ -24,9 +24,9 @@ But we cannot define epoc until we define the output. The output is the present 
 
 This model, does not need separate training as it continuously trains by the birth of an instance/epoc, using/sharing same parameters as previous instance/epoc or instances/epocs. This core gene (or parameters) are getting trained/improved as the environment is changing to optimize a function called survival function.
 
-Survival function has to be maximized for any epoc.  The ultimate aim of evolution is to increase the survival. Loss function will be inverse of Survival function which is extinction function. But like every algorithm, some features/representations are unable to optimize this function and hence are erased and replaced by new representations.
+Survival function has to be maximized for any epoc.  The ultimate aim of evolution is to increase the survival. Loss function will be inverse of Survival function which is extinction function. But like every algorithm, some features/representations are unable to optimize this function and hence are erased and replaced by new representations. This extinction function drives the backpropagation into the network and causes the features and parameters to change and adapt.
 
-Since this entire architecture is having layers of parameters, with every layer holing feature representation, and having tree-like structure, it is quite apt to call it a  deep learning algorithm. I am quite sure we will keep evolving and adjusting until this  model is killed by OOM. In that case I hope we will find a new machine to run this model.
+Since this entire architecture is having layers of parameters, with every layer capturing more and more complex feature representations, and having tree-like structure, it is quite apt to call it a  deep learning algorithm. I am quite sure we will keep evolving and adjusting until this  model is killed by OOM. In that case I hope we will find a new machine to run this model.
 
 In the words of Elon Musk
 
