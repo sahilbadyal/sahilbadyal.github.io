@@ -8,7 +8,6 @@ tags: [philosophy,books,business books,book review,notes,financial freedom,netwo
 {% include JB/setup %}
 
 <style type="text/css">
-
   .img-responsive {
     width: 14%;
     float: right;
@@ -24,7 +23,8 @@ The author Robert T. Kiyosaki, starts with few excerpts of his early life wherei
 The first part of the book **“Take control of your life”** talks about how the present economic situation of the world is creating a perfect “Opportunity” for people to start a business and earn their financial freedom. In doing so, he explains how 20th century Industrial Age has given way to new 21st Century Information Age, and how the stale concepts of job security, pensions, social security are just not valid for this age. Citing examples of Microsoft and Disney, he talks about how in all these economic downtimes, there is a silver lining; a heap of opportunities waiting to be explored. Another takeaway is author’s delineation of four cashflow quadrants. He tries to model the behavior of people in these quadrants and in doing so explains why people are reluctant to change from E/S to B/I. Finally, he talks about the entrepreneurial mindset and how it can help you achieve financial freedom and the key lies in harnessing passive income.  
 
 E = Employee  
-S = Self-employed or Small-business owner  ![cashflow quadrant](assets/images/cashflow-quadrant-with-arrow.png){:class="img-responsive"}
+S = Self-employed or Small-business owner  
+![cashflow quadrant](assets/images/cashflow-quadrant-with-arrow.png){:class="img-responsive"}
 B = Business owner  
 I = Investor  
 
