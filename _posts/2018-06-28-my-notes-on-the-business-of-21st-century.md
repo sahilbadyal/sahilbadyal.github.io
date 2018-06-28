@@ -26,17 +26,17 @@ The second part “One Business—Eight Wealth-Building Assets” is basically w
 
 1. A Real-World Business Education  
           Author and John both explain how it provides one of the most practical business education which cannot be learned at any business school. One can get a financial education too as this is never taught. As John explains key essential elements of real-world education:  
-	* An attitude of success
-	* Dressing for success
-	* Overcoming personal fears, doubts, and lack of confidence 
-	* Overcoming the fear of rejection 
-	* Communication skills 
-	* People skills 
-	* Time-management skills
-	* Accountability skills 
-	* Practical goal-setting 
-	* Money-management skills
-	* Investing skills
+		* An attitude of success
+		* Dressing for success
+		* Overcoming personal fears, doubts, and lack of confidence 
+		* Overcoming the fear of rejection 
+		* Communication skills 
+		* People skills 
+		* Time-management skills
+		* Accountability skills 
+		* Practical goal-setting 
+		* Money-management skills
+		* Investing skills
 2. A Profitable Path of Personal Development  
           Here he talks more about how it helps you develop soft skills and changes your approach to life as a whole and makes you a better person.
 3. A Circle of Friends Who Share Your Dreams and Values  
