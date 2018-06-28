@@ -50,7 +50,7 @@ The second part **“One Business—Eight Wealth-Building Assets”** is basical
           Here he talks more about how it helps you develop soft skills and changes your approach to life as a whole and makes you a better person.
 3. **A Circle of Friends Who Share Your Dreams and Values**  
           Since it involves a network, the author here shows how it can help you make real connections with like-minded people, who would help you develop, as your goals are similar and not conflicting. 
-4. The Power of Your Own Network  
+4. **The Power of Your Own Network**  
           The author shows us the power of the network and how powerful it is because of Metcalfe’s Law  
 > **v=n^2**  
           Network’s output grows exponentially and not linearly.
