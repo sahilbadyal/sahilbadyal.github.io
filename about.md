@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-Here is some more information about me.
+Here is some information about me.
 
 
 ###My Alma Mater
@@ -15,16 +15,14 @@ I am an alumnus of [JK Public School Kunjwani](http://jkpublicschool.in) and [Sa
 
 ###My General Interests
 
-I am interested in reading about aliens, cosmos, physics, technology, and lots of other stuffs which I cannot recall right now.
+I am interested in reading about aliens, cosmos, physics, technology, business and lots of other stuffs that keeps me busy.
 
 ###My Academic Interests
 
 My interests include :
 
-1. Machine Learning
+1. Deep Learning
 2. Designing Sofware Solutions
-3. Computer Architecture
-4. Algorithms and their design 
 
 ###My Hobbies
 
