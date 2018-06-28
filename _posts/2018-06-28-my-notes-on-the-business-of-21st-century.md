@@ -24,26 +24,26 @@ I = Investor
 The second part “One Business—Eight Wealth-Building Assets” is basically what this book is all about because it is one thing to talk about concepts and theories and another to talk about a practical approach or a solution to financial freedom. Here we are introduced with network marketing as a way to start. John Fleming, a friend and a person with 45 years of experience in network marketing helps us visualize the benefits of network marketing or multilevel direct sales. He explains, how the requirement of capital, makes the transition to B/I quadrant challenging and how network marketing leverages your time and not money instead. He also differentiates it from sales, as this is based on duplication rather than excellence or distinction. He talks about assets that generate income as opposed to active income (The income that one has to work/spend his time on). Finally, we get to explore 8 benefits or pros of network marketing but in doing so he terms them “assets”:
 
 
-   1. A Real-World Business Education  
+1. A Real-World Business Education  
           Author and John both explain how it provides one of the most practical business education which cannot be learned at any business school. One can get a financial education too as this is never taught. As John explains key essential elements of real-world education:  
-    * An attitude of success
-    * Dressing for success
-    * Overcoming personal fears, doubts, and lack of confidence 
-    * Overcoming the fear of rejection 
-    * Communication skills 
-    * People skills 
-    * Time-management skills
-    * Accountability skills 
-    * Practical goal-setting 
-    * Money-management skills
-    * Investing skills
+	* An attitude of success
+	* Dressing for success
+	* Overcoming personal fears, doubts, and lack of confidence 
+	* Overcoming the fear of rejection 
+	* Communication skills 
+	* People skills 
+	* Time-management skills
+	* Accountability skills 
+	* Practical goal-setting 
+	* Money-management skills
+	* Investing skills
    2. A Profitable Path of Personal Development  
           Here he talks more about how it helps you develop soft skills and changes your approach to life as a whole and makes you a better person.
    3. A Circle of Friends Who Share Your Dreams and Values  
           Since it involves a network, the author here shows how it can help you make real connections with like-minded people, who would help you develop, as your goals are similar and not conflicting. 
    4. The Power of Your Own Network  
           The author shows us the power of the network and how powerful it is because of Metcalfe’s Law  
-                         > **v=n^2**
+> **v=n^2**  
           Network’s output grows exponentially and not linearly.
    5. A Duplicable, Fully Scalable Business  
           Here author talks us through the how's and why's of network marketing. He explains the power of duplication the essence of a scalable business and cites examples of Henry Ford and Edison for creating networks through simple and duplicatable designs.
