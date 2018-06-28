@@ -33,7 +33,7 @@ I = Investor
 The second part **“One Business—Eight Wealth-Building Assets”** is basically what this book is all about because it is one thing to talk about concepts and theories and another to talk about a practical approach or a solution to financial freedom. Here we are introduced with network marketing as a way to start. John Fleming, a friend and a person with 45 years of experience in network marketing helps us visualize the benefits of network marketing or multilevel direct sales. He explains, how the requirement of capital, makes the transition to B/I quadrant challenging and how network marketing leverages your time and not money instead. He also differentiates it from sales, as this is based on duplication rather than excellence or distinction. He talks about assets that generate income as opposed to active income (The income that one has to work/spend his time on). Finally, we get to explore 8 benefits or pros of network marketing but in doing so he terms them “assets”:
 
 
-1. **A Real-World Business Education**
+1. **A Real-World Business Education**  
           Author and John both explain how it provides one of the most practical business education which cannot be learned at any business school. One can get a financial education too as this is never taught. As John explains key essential elements of real-world education:  
 	* An attitude of success
 	* Dressing for success
@@ -71,7 +71,7 @@ There is also a section where his wife Kim Kiyosaki talks in a motivational tone
 
 ### Part 3 ###
 
-In the final section titled **“Your Future Starts Now”**, the author finally sets us free with a knowledge and few things to care while pursuing this path.
+In the final section titled **“Your Future Starts Now”**, the author finally sets us free with a knowledge and few things to care while pursuing this path (i.e. entering into network marketing business).
 
 * Who’s running the ship? 
 * Does the company offer a proven plan of action?
