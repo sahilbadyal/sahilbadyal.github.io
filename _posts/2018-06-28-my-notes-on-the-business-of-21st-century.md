@@ -15,7 +15,7 @@ tags: [philosophy,books,business books,book review,notes,financial freedom,netwo
   }
 </style>
 
-I recently got a chance to read a book by [Robert T. Kiyosaki](https://en.wikipedia.org/wiki/Robert_Kiyosaki), an American businessman and author. I thought this knowledge was worth sharing so I am publishing my notes and a brief review on this book. This book talks primarily about how you can start towards attaining financial freedom and champions [network monitoring](https://www.entrepreneur.com/encyclopedia/network-marketing) to be an excellent starting point due to its flexibility and lack of dependency on capital. I hope this knowledge proves useful to you at some point of your life.
+I recently got a chance to read a book by [Robert T. Kiyosaki](https://en.wikipedia.org/wiki/Robert_Kiyosaki), an American businessman and author. I thought this knowledge was worth sharing so I am publishing my notes and a brief review on this book. This book talks primarily about how you can start towards attaining financial freedom and champions [network marketing](https://www.entrepreneur.com/encyclopedia/network-marketing) to be an excellent starting point due to its flexibility and lack of dependency on capital. I hope this knowledge proves useful to you at some point of your life.
 
 The author Robert T. Kiyosaki, starts with few excerpts of his early life wherein he talks about his rich and poor dad and their teachings and impact on his life. He lets us understand the life he has led so far, and how, his adamant take on changing his life made him who he is today, and why we as readers should read this book [“The Business of 21st Century”](https://www.amazon.in/Business-21st-Century-Robert-Kiyosaki/dp/8183222609).
 
