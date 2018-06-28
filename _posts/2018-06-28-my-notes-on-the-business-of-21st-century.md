@@ -9,8 +9,9 @@ tags: [philosophy,books,business books,book review,notes,financial freedom,netwo
 
 <style type="text/css">
   .img-responsive {
-    width: 40%;
+    width: 33%;
     float: right;
+    padding-right: 15%;
   }
 </style>
 
