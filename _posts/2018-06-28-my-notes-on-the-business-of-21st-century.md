@@ -37,38 +37,37 @@ The second part “One Business—Eight Wealth-Building Assets” is basically w
 	* Practical goal-setting 
 	* Money-management skills
 	* Investing skills
-   2. A Profitable Path of Personal Development  
+2. A Profitable Path of Personal Development  
           Here he talks more about how it helps you develop soft skills and changes your approach to life as a whole and makes you a better person.
-   3. A Circle of Friends Who Share Your Dreams and Values  
+3. A Circle of Friends Who Share Your Dreams and Values  
           Since it involves a network, the author here shows how it can help you make real connections with like-minded people, who would help you develop, as your goals are similar and not conflicting. 
-   4. The Power of Your Own Network  
+4. The Power of Your Own Network  
           The author shows us the power of the network and how powerful it is because of Metcalfe’s Law  
-> **v=n^2**  
+> **v=n^2**
           Network’s output grows exponentially and not linearly.
-   5. A Duplicable, Fully Scalable Business  
+5. A Duplicable, Fully Scalable Business  
           Here author talks us through the how's and why's of network marketing. He explains the power of duplication the essence of a scalable business and cites examples of Henry Ford and Edison for creating networks through simple and duplicatable designs.
-   6. Incomparable Leadership Skills  
+6. Incomparable Leadership Skills  
           He also talks about leadership skills and their development through network marketing. He explains how helping and motivating others to achieve their goals creates a leader inside of you.
-   7. A Mechanism for Genuine Wealth Creation  
+7. A Mechanism for Genuine Wealth Creation  
           Here the author gives his mantra of wealth creation and separates the idea of wealth and money. Wealth is measured in time and not money. Following is his four-step path to financial freedom:
-    * Build a business
-    * Reinvest in your business
-    * Invest in real estate 
-    * Let your assets buy luxuries
-   8. Big Dreams and the Capacity to Live Them  
+	* Build a business
+	* Reinvest in your business
+	* Invest in real estate 
+	* Let your assets buy luxuries
+8. Big Dreams and the Capacity to Live Them  
           Finally, the author stresses the value of dreams and also models different types of dreamers. He talks about how network marketing is an ideal path to start living a dream instead of just dreaming, though he stresses on this not being the only one.
 
 There is also a section where his wife Kim Kiyosaki talks in a motivational tone about how women’s innate ability to connect with others makes them ideal and excel in network marketing business.
 
 ### Part 3 ###
 
-In the final section titled “Your Future Starts Now”, the author finally sets us free with a 
-knowledge and few things to care while pursuing this path.     
+In the final section titled “Your Future Starts Now”, the author finally sets us free with a knowledge and few things to care while pursuing this path.
 
-    * Who’s running the ship? 
-    * Does the company offer a proven plan of action?
-    * Does the company embrace both business skills and personal development as a regular part of its educational and training programs?
-    * Does the company have a strong, high-quality, and highly marketable product line that you can be passionate about?
+* Who’s running the ship? 
+* Does the company offer a proven plan of action?
+* Does the company embrace both business skills and personal development as a regular part of its educational and training programs?
+* Does the company have a strong, high-quality, and highly marketable product line that you can be passionate about?
 
 The author also tells us that it takes no degree, no resignation from a regular job, no genius but plain honesty to achieve real wealth. He tells us how network marketing is a democratic way of wealth creation and it takes only persistence and sincerity towards one’s own dream to achieve it. He hopes for the readers to take a small step towards their happiness as real wealth creation is not just about money but the quality of life.
 
