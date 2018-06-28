@@ -24,7 +24,7 @@ The first part of the book **“Take control of your life”** talks about how t
 
 E = Employee  
 S = Self-employed or Small-business owner  
-![cashflow quadrant](../assets/images/cashflow-quadrant-with-arrow.png){:class="img-responsive"}
+![cashflow quadrant](assets/images/cashflow-quadrant-with-arrow.png){:class="img-responsive"}
 B = Business owner  
 I = Investor  
 
