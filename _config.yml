@@ -138,4 +138,5 @@ theme: jekyll-theme-time-machine
 url : http://sahilbadyal.com
 plugins:
           - jekyll-seo-tag
-          - jekyll-sitemap  
+          - jekyll-sitemap
+          - jekyll-feed  
