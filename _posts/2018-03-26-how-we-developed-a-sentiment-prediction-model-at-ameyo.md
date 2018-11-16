@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How we developed a Sentiment Prediction model at Ameyo ?"
+title: "How we developed a Sentiment Prediction model at Ameyo"
 description: "The steps taken by our team at Ameyo to deveop the sentiment prediction model"
 category: [technology]
 tags: [deeplearning,ai,machinelearning,nlp,ameyo,technology]
