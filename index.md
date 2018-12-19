@@ -27,9 +27,9 @@ tagline: know me more :)
 ![sahilbadyal](assets/images/sahil_badyal.JPG){:class="img-responsive"}
 
 
-I am Sahil Badyal, a deep learning enthusiast and ex Machine Learning Engineer at [Ameyo](https://www.ameyo.com) in Gurgaon. I completed by bachelors in computer science from [National Institute of Technology, Hamirpur](http://nith.ac.in). My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
+I am Sahil Badyal, a deep learning enthusiast and Machine Learning Engineer at [Roposo](https://www.roposo.com) in Gurgaon. I completed by bachelors in computer science from [National Institute of Technology, Hamirpur](http://nith.ac.in). My home town is [Billawar](http://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](http://en.wikipedia.org/wiki/Jammu_and_Kashmir), where I have spent much of my childhood.
 
-I am currently interested in Natural Language Processing and applications of Deep Learning in video to text translations for Signlanguage to text conversion applications. [DatumFund.com](https://www.datumfund.com) is an initiative in this direction.
+I am currently interested in Natural Language Processing and applications of Deep Learning in video to text translations for Signlanguage. [DatumFund.com](https://www.datumfund.com) is an initiative in this direction.
 
 [CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/Sahil_Badyal_resume.pdf){: .btn target="_blank"} [GitHub](https://github.com/sahilbadyal){: .btn target="_blank"}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn target="_blank"} [Publications](https://scholar.google.co.in/citations?hl=en&user=T65KqaMAAAAJ){: .btn target="_blank"}
  
