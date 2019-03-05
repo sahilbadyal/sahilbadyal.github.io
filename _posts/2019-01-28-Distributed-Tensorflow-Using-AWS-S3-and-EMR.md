@@ -34,15 +34,15 @@ Typical TF architecture looks like this:
 
 More information [here](https://www.tensorflow.org/guide/extend/architecture)
 
-##Distributed Traning in Tensorflow: 
+## Distributed Traning in Tensorflow: 
 Tensorflow exploits data parallelism through graph replications
 
-###Types of Replication:
+### Types of Replication:
 1. **In-graph Replication:**
     Single client (usually on the master server) builds the tf.graph and coordinates with ps and workers.
 2.  **Between-Graph Replication:**
      Each worker has a similar graph for itself and uses ps to store and get variables. This is the default replication type in Tensoflow.
-###Types of training:
+### Types of training:
 1.  **Synchronous Training:**
      In this type of training, each client reads the same variables from the ps and then applies computations and then synchronously writes the updates to the ps. This is compatible with both replication types.
  2. **Asynchronous Training:**
@@ -51,7 +51,8 @@ Tensorflow exploits data parallelism through graph replications
 More information [here](https://github.com/tensorflow/examples/blob/master/community/en/docs/deploy/distributed.md)
 
 So TF_CONFIG variable looks like this on my Master machine: 
-```export TF_CONFIG='{ "cluster": { "chief": ["172.30.11.50:2222"], "worker": ["172.30.11.219:2222","172.30.11.11:2222","172.30.11.127:2222","172.30.11.108:2222","172.30.11.195:2222","172.30.11.215:2222","172.30.11.249:2222"], "ps": ["172.30.11.95:2222","172.30.11.149:2222"] }, "task": {"type": "chief", "index": 0} }'
+```bash
+export TF_CONFIG='{ "cluster": { "chief": ["172.30.11.50:2222"], "worker": ["172.30.11.219:2222","172.30.11.11:2222","172.30.11.127:2222","172.30.11.108:2222","172.30.11.195:2222","172.30.11.215:2222","172.30.11.249:2222"], "ps": ["172.30.11.95:2222","172.30.11.149:2222"] }, "task": {"type": "chief", "index": 0} }'
 ```
 
 **Remember the environment variable TF_CONFIG would be different for every Machine especially the "index"**
