@@ -77,9 +77,10 @@ dataset = dataset.shard(TOTAL_WORKERS, WORKER_INDEX)
 
 The good thing with Tensorflow is that surprisingly it has a good S3 connector, so I recommend using that.  To use Tensorflow with S3, just add the following:
 1. In your `~/.bashrc`:
-	```
+	```bash
 	export AWS_REGION=<your region>
-
+	```
+	```bash
 	export S3_ENDPOINT=s3.<your region>.amazonaws.com
 	```
 2.  Your AWS credentials in `~/.aws/credentials` file
