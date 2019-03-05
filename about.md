@@ -11,7 +11,7 @@ Here is some information about me.
 
 ###My Alma Mater
 
-I am an alumnus of [JK Public School Kunjwani](http://jkpublicschool.in) and [Sacred Heart Convent School](https://www.facebook.com/SHCSBILLAWAR). I completed by B.Tech in computer science from [National Institute of Technology Hamirpur (H.P.)](http://nith.ac.in) in 2016.
+I am an alumnus of [JK Public School Kunjwani](https://jkpublicschool.in) and [Sacred Heart Convent School](https://www.facebook.com/SHCSBILLAWAR). I completed by B.Tech in computer science from [National Institute of Technology Hamirpur (H.P.)](https://nith.ac.in) in 2016.
 
 ###My General Interests
 
