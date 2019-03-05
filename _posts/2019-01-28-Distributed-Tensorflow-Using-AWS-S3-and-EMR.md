@@ -43,11 +43,12 @@ Tensorflow exploits data parallelism through graph replications
 1. **In-graph Replication:**
     Single client (usually on the master server) builds the tf.graph and coordinates with ps and workers.
 2.  **Between-Graph Replication:**
-     Each worker has a similar graph for itself and uses ps to store and get variables. This is the default replication type in Tensoflow.
+     Each worker has a client and similar tf.graph for itself and uses the  parameter server to store and get variables. This is the default replication type in Tensorflow.
+
 #### Types of training:
 1.  **Synchronous Training:**
      In this type of training, each client reads the same variables from the ps and then applies computations and then synchronously writes the updates to the ps. This is compatible with both replication types.
- 2. **Asynchronous Training:**
+2. **Asynchronous Training:**
      Each client runs a training loop independently and updates the parameters in the ps. This is also compatible with both replications. This is the default training type
 
 More information [here](https://github.com/tensorflow/examples/blob/master/community/en/docs/deploy/distributed.md)
@@ -63,22 +64,23 @@ This environment variable needs to be set on every machine of the cluster and th
 ### Data Pipeline
 Following things need to be done:
 
-## 1. Input data stored on S3/HDFS/(Any other filesystem)  (so that every machine can access ).
-## 2. Sharding the data, so that every worker gets its unique subset of data.
-    To shard dataset use:
+#### 1. Input data stored on S3/HDFS/(Any other filesystem)  (so that every machine can access ).
+#### 2. Sharding the data, so that every worker gets its unique subset of data.
+    	To shard dataset use:
 ```python
 dataset = dataset.shard(TOTAL_WORKERS, WORKER_INDEX)
 ```
-`WORKER_INDEX` here is not the task index in `TF_CONFIG`, because we need to take into account that chief is also a worker so its index would be 0 and Worker1 index would be 1, so on and so forth. This is an important step as this ensures true data parallelism. [Here](https://www.tensorflow.org/guide/performance/datasets) are the best practices for data pipeline.
-## 3. Implement the rest of the data pipeline as you like and call estimator train and evaluate API. 
-## 4. Storing the model/result in S3/HDFS/(Any other filesystem) (accessible from the cluster)
+	`WORKER_INDEX` here is not the task index in `TF_CONFIG`, because we need to take into account that chief is also a worker so its index would be 0 and Worker1 index would be 1, so on and so forth. This is an important step as this ensures true data parallelism. [Here](https://www.tensorflow.org/guide/performance/datasets) are the best practices for data pipeline.
+#### 3. Implement the rest of the data pipeline as you like and call estimator train and evaluate API. 
+#### 4. Storing the model/result in S3/HDFS/(Any other filesystem) (accessible from the cluster)
 
 The good thing with Tensorflow is that surprisingly it has a good S3 connector, so I recommend using that.  To use Tensorflow with S3, just add the following:
-1. In your ~/.bashrc
-```bash
-export AWS_REGION=<your region>
-export S3_ENDPOINT=s3.<your region>.amazonaws.com
-```
+1. In your `~/.bashrc`
+	```bash
+	export AWS_REGION=<your region>
+
+	export S3_ENDPOINT=s3.<your region>.amazonaws.com
+	```
 2.  Your AWS credentials in `~/.aws/credentials` file
 
 Now all you need to do is run Tensorflow on all the machines (again I recommend using a script as I did [here](https://gist.github.com/sahilbadyal/3990fe16712cd670e6b39460960e6377)) and voila! you will enter the world of distributed deep learning. 
@@ -93,6 +95,7 @@ python3 -m tensorboard.main --logdir=s3://<path-to-model-output>
 I hope this has been a useful read for you. Please leave your feedback in the comment section below. 
 
 P.S.
+
 Here are a few links which I found useful:
 
 1. [Google I/O 2018](https://www.youtube.com/watch?v=bRMGoPqsn20)
