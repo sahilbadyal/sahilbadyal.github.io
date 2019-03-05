@@ -71,11 +71,11 @@ To shard dataset use:
 ```
 dataset = dataset.shard(TOTAL_WORKERS, WORKER_INDEX)
 ```
-	`WORKER_INDEX` here is not the task index in `TF_CONFIG`, because we need to take into account that chief is also a worker so its index would be 0 and Worker1 index would be 1, so on and so forth. This is an important step as this ensures true data parallelism. [Here](https://www.tensorflow.org/guide/performance/datasets) are the best practices for data pipeline.
+`WORKER_INDEX` here is not the task index in `TF_CONFIG`, because we need to take into account that chief is also a worker so its index would be 0 and Worker1 index would be 1, so on and so forth. This is an important step as this ensures true data parallelism. [Here](https://www.tensorflow.org/guide/performance/datasets) are the best practices for data pipeline.
 #### 3. Implement the rest of the data pipeline as you like and call estimator train and evaluate API. 
 #### 4. Storing the model/result in S3/HDFS/(Any other filesystem) (accessible from the cluster)
 
-	The good thing with Tensorflow is that surprisingly it has a good S3 connector, so I recommend using that.  To use Tensorflow with S3, just add the following:
+The good thing with Tensorflow is that surprisingly it has a good S3 connector, so I recommend using that.  To use Tensorflow with S3, just add the following:
 1. In your `~/.bashrc`:
 	```
 	export AWS_REGION=<your region>
