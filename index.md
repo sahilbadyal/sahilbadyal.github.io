@@ -17,6 +17,16 @@ tagline: know me more :)
     font-size: 16px;
   }
 
+  .linkbtn {
+    background-color: #BADA55;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+   }
+
   .img-responsive {
     width: 24%;
     float: left;
@@ -35,7 +45,7 @@ I am a computer science enthusiast, interested in computer vision, multi-modal m
 
 Fall 2019 courses at ASU:
 
-1. [CSE 551 - Advanced Algorithms](https://www.public.asu.edu/~ccolbou/src/cse551f19.html){: target="_blank"} [Repository Link](https://github.com/sahilbadyal/cse551){: .btn target="_blank"}
+1. [CSE 551 - Advanced Algorithms](https://www.public.asu.edu/~ccolbou/src/cse551f19.html){: target="_blank"} [Repository Link](https://github.com/sahilbadyal/cse551){: .linkbtn target="_blank"}
 2. [CSE 591 - Control and Co-ordination of Multi-Robot Systems](https://test-stephanie-gil.pantheonsite.io/wp-content/uploads/2017/12/ASU-Robotics-Seminar-Course-short.pdf){: target="_blank"} 
 3. [CSE 575 - Statistical Machine Learning](https://asuonline.asu.edu/docs/cse_575.pdf){: target="_blank"} 
 
