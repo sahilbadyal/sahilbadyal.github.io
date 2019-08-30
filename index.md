@@ -29,7 +29,7 @@ tagline: know me more :)
 
 I am Sahil Badyal, currently pursuing MS in Computer Science from [Arizona State University](https://www.asu.edu){: target="_blank"}.I have three years of experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
 
-I am a conputer science enthusiast, currently interested in computer vision, multi-modal machine learning, control and coordination of multi-robot systems. 
+I am a computer science enthusiast, interested in computer vision, multi-modal machine learning, control and coordination of multi-robot systems. 
 
 [CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/Sahil_Badyal_resume.pdf){: .btn target="_blank"} [GitHub](https://github.com/sahilbadyal){: .btn target="_blank"}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn target="_blank"} [Publications](https://scholar.google.co.in/citations?hl=en&user=T65KqaMAAAAJ){: .btn target="_blank"}
 
