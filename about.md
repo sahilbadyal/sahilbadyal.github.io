@@ -23,6 +23,7 @@ My interests include :
 
 1. Deep Learning
 2. Designing Sofware Solutions
+3. Embedded Autonomy
 
 ###My Hobbies
 
