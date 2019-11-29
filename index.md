@@ -34,7 +34,7 @@ tagline: know me more :)
   }
 </style>
 
-![sahilbadyal](https://xkcd.com/894/){:class="img-responsive"}
+![xkcd](assets/images/progeny.png){:class="img-responsive"}
 
 
 I am Sahil Badyal, currently pursuing MS in Computer Science from [Arizona State University](https://www.asu.edu){: target="_blank"}.I have three years of experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
