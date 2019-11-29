@@ -28,7 +28,7 @@ tagline: know me more :)
    }
 
   .img-responsive {
-    width: 24%;
+    width: 50%;
     float: left;
     padding-right: 4%;
   }
