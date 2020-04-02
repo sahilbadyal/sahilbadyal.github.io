@@ -24,10 +24,10 @@ Today Tensorflow and PyTorch are the most widely used and have found their niche
 
 Here is why this comparison is important more than ever:
 
-* Both are highly popular systems which have been successful in penetrat-ing the market of domain-specific languages (DSLs) for differentiable programs through their features.
+* Both are highly popular systems which have been successful in penetrating the market of domain-specific languages (DSLs) for differentiable programs through their features.
 * As mentioned above as well, both are more closer than ever as they now support imperative style of programming.
 
-Along with these two reasons, their similarity now also brings their differences and performance comparisons to light.  The predilection of the research community towards PyTorch can now be understood and explained in a better way.
+Along with these two reasons, their similarity now also brings their differences and performance comparisons to light. The predilection of the research community towards PyTorch can now be understood and explained in a better way.
 
 ## Tensorflow Eager
 
