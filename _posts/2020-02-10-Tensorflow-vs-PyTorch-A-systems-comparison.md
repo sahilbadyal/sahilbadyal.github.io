@@ -94,7 +94,7 @@ Reading these papers I have a few learnings which I would like to share:
 * Usability and Performance although are a part of tradeoff but still withsome good design and engineering can be both increased.
 * Declarative Style of Programming seems to be taking a back seat as evident with Tensorflow that most programmers just want to use the languages they are most comfortable in.
 
-In  the  end  I  want  to  conclude  that  both  these  frameworks  are  excellent examples of engineering and it will be interesting to seethe future trends in their market share.I hope this has been a useful read for you. Please leave your feedback in the comment section below. 
+In  the  end  I  want  to  conclude  that  both  these  frameworks  are  excellent examples of engineering and it will be interesting to see the future trends in their market share.I hope this has been a useful read for you. Please leave your feedback in the comment section below. 
 
 P.S.
 

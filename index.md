@@ -10,7 +10,7 @@ tagline: know me more :)
     background-color: #BADA55;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 26px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,7 +37,7 @@ tagline: know me more :)
 ![xkcd](assets/images/progeny.png){:class="img-responsive"}
 
 
-I am Sahil Badyal, currently a [MORE](https://graduate.engineering.asu.edu/more/){: target="_blank"} Graduate Researcher at the [REACT Lab](https://gil.engineering.asu.edu/react-lab-members/){: target="_blank"}, [Arizona State University](https://www.asu.edu){: target="_blank"}. I have three years of experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar) in [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
+I am Sahil Badyal, currently a [MORE](https://graduate.engineering.asu.edu/more/){: target="_blank"} Graduate Researcher at the [REACT Lab](https://gil.engineering.asu.edu/react-lab-members/){: target="_blank"}, [Arizona State University](https://www.asu.edu){: target="_blank"}. I have three years of experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar), [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
 
 I am a computer science enthusiast, interested in reinforcement learning, multi-modal machine learning, control and coordination of multi-robot systems. 
 
