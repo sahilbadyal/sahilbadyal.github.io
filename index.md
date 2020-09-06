@@ -37,9 +37,9 @@ tagline: know me more :)
 ![xkcd](assets/images/progeny.png){:class="img-responsive"}
 
 
-I am Sahil Badyal, currently a [MORE](https://graduate.engineering.asu.edu/more/){: target="_blank"} Graduate Researcher at the [REACT Lab](https://gil.engineering.asu.edu/react-lab-members/){: target="_blank"}, [Arizona State University](https://www.asu.edu){: target="_blank"}. I have three years of experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar), [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
+I am Sahil Badyal, currently a graduate researcher at the [REACT Lab](https://gil.engineering.asu.edu/react-lab-members/){: target="_blank"}, Harvard University (previously at [Arizona State University](https://www.asu.edu){: target="_blank"}). I recently interned at [Capital One](https://capitalone.com){: target="_blank"}, as a Data Scientist in the Vision and Language Technologies Team (VaLT). I also have more than three years of professional experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar){: target="_blank"}, [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
 
-I am a computer science enthusiast, interested in reinforcement learning, multi-modal machine learning, control and coordination of multi-robot systems. 
+I am a computer science enthusiast, interested in reinforcement learning, robot-learning, multi-modal machine learning, and NLP. 
 
 [CV](https://s3-ap-southeast-1.amazonaws.com/sahilbprojects/my-blog/Sahil_Badyal_resume.pdf){: .btn target="_blank"} [GitHub](https://github.com/sahilbadyal){: .btn target="_blank"}  [LinkedIn](https://www.linkedin.com/in/sahilbadyal){: .btn target="_blank"} [Publications](https://scholar.google.co.in/citations?hl=en&user=T65KqaMAAAAJ){: .btn target="_blank"}
 
