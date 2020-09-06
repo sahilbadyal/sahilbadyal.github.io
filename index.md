@@ -30,11 +30,11 @@ tagline: know me more :)
   .img-responsive {
     width: 30%;
     float: left;
-    padding: 4%;
+    padding: 15px;
   }
 </style>
 
-![xkcd](assets/images/progeny.png){:class="img-responsive"}
+![src:https://imgs.xkcd.com/comics/progeny.png](assets/images/progeny.png){:class="img-responsive"}
 
 
 I am Sahil Badyal, currently a graduate researcher at the [REACT Lab](https://gil.engineering.asu.edu/react-lab-members/){: target="_blank"}, Harvard University (previously at [Arizona State University](https://www.asu.edu){: target="_blank"}). I recently interned at [Capital One](https://capitalone.com){: target="_blank"}, as a Data Scientist in the Vision and Language Technologies Team (VaLT). I also have more than three years of professional experience in Software Development and Machine Learning. I was born and raised in [Billawar](https://en.wikipedia.org/wiki/Billawar){: target="_blank"}, [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir){: target="_blank"}, India.
