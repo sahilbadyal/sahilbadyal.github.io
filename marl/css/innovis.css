@@ -3,6 +3,7 @@
     height: 650px;
     display: block;
     margin: auto;
+    align-items: center;
 }
 
 #mrrp {
@@ -104,4 +105,18 @@ div.innovis-tooltip-box {
   }
 .innoviz-div{
   min-width: 600px;
+}
+
+.cost-label{
+  font-size: xx-large;
+    font-weight: 900;
+    margin: auto;
+    padding: 10px;
+}
+
+#ctext {
+  font-size: xx-large;
+    font-weight: 900;
+    margin: auto;
+    padding: 10px;
 }

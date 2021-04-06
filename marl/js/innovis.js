@@ -79,15 +79,13 @@ document.addEventListener('DOMContentLoaded', function () {
   function getSpirdersAndFlies(inp_data){
       if (sAndF){
         let i = 0;
-        spPos = new Set()
         for (var pos=0; pos < inp_data.length - 1; pos=pos+2){
             cg = gd[parseInt(inp_data[pos])][parseInt(inp_data[pos+1])]
-            np = (cg.x, cg.y)
-            if (pos < nSpidders * 2){
-                spPos.add(np)
-            }else{
-                if (spPos.has(np)){
-                    sAndF[i].captured = true
+            if (pos >= nSpidders * 2){
+                for (var j=0; j<nSpidders; j++){
+                    if(sAndF[i].x==sAndF[j].x && sAndF[i].y==sAndF[j].y){
+                        sAndF[i].captured = true
+                    }
                 }
             }
             sAndF[i].x = cg.x
@@ -162,6 +160,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function addListeners() {
     const policyTag = document.getElementById("policy");
     const randomize = document.getElementById("randomize");
+    const costText = document.getElementById('ctext');
+
+    costText.innerHTML = 0;
 
     policyTag.selectedIndex = 0;
 
@@ -176,6 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
         selectedPolicy = policyTag.value;
         grid.selectAll(".agents").remove();
         sAndF = null
+        costText.innerHTML = 0;
         let dat = data[0][randomState][selectedPolicy][0]
         sAndF = getSpirdersAndFlies(dat)
         drawSpidersAndFlies();
@@ -186,6 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
       randomize.addEventListener('click', (event) => {
         randomState = Math.floor(Math.random() * 998);
         policyTag.selectedIndex = 0;
+        costText.innerHTML = 0;
         selectedPolicy = policyTag.value;
         grid.selectAll(".agents").remove();
         sAndF = null
@@ -307,6 +310,8 @@ function animate(){
     step++;
     console.log(step)
     let dat = data[0][randomState][selectedPolicy][step]
+    const costText = document.getElementById('ctext');
+    costText.innerHTML = dat[dat.length-1];
     getSpirdersAndFlies(dat)
     drawSpidersAndFlies()
     if (step==data[0][randomState][selectedPolicy].length-1){
@@ -443,8 +448,15 @@ function drawSpidersAndFlies(){
             // .attr("opacity", d => {
             //     if (d.captured) return 0; else return 1;
             // })
-            .attr('transform', d => `translate(${d.x},${d.y})`)
-        });
+            .attr('transform', d => {
+                if(d.captured){
+                    console.log(d.x, d.y)
+                    return `rotate(180,${d.x/2 + d.width/2},${d.y/2 + d.height/2 + 1})`
+                }else{
+                    return `translate(${d.x},${d.y})`
+                }
+            })
+            });
         },
         exit => {
         // add the transition for exit
