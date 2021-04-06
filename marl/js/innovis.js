@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //addInnovisLegend();
     // Load the processed data before doing anything else
     Promise.all([
-            d3.json('assets/images/5X_4_2_1000.json'), //0
+            d3.json('../assets/images/5X_4_2_1000.json'), //0
                 ])
       .then(function (d) {
 
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     x: cg.x,
                     y: cg.y, 
-                    url: 'assets/images/spider.png',
+                    url: '../../assets/images/spider.png',
                     width: cg.width,
                     height: cg.height,
                     captured:false
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     x: cg.x,
                     y: cg.y, 
-                    url: 'assets/images/fly.png',
+                    url: '../../assets/images/fly.png',
                     width: cg.width,
                     height: cg.height,
                     captured:false
