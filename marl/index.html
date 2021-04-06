@@ -153,21 +153,15 @@
         </div>
         </div>
         -->
-    <div class='content-body content-body-menu-open'>
+    <div class='content-body'>
         <div class="content-div">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#overview">Multi-Agent Rreinforcement Learning Problems</a>
+                    <a class="nav-link" data-toggle="tab" href="#overview">MARL Problems</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" id="detailed" data-toggle="tab" href="#detail">Detailed</a>
+                <li class="nav-item">
+                    <a class="nav-link" id="detailed" data-toggle="tab" href="#detail">Multi-Agent Rollout Variants</a>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#details_groups">Groups</a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#about">About</a>
-                </li> -->
             </ul>
             <div class="tab-content">
                 <div class="tab-pane fade" id="overview">
@@ -175,36 +169,60 @@
                         <div class="col-sm-4 mb-3">
                             <div class="viz-div heat-viz-div">
                                 <div class="viz-header">Spider and Fly Problem
-                                    <i class="fas fa-info-circle info-circle" onclick="checkinHeatMapInfo()"></i>     
+                                    <i class="fas fa-info-circle info-circle" onclick="spiderAndFlyInfo()"></i>     
                                 </div>
-                                <div class="select-day">
-                                        <label for="heat_days">Days </label>
-                                        <select class="form-control" id="heat_days" placeholder="Select the day"
-                                            onchange="onClickRadio()">
-                                            <option value="HMfriday" id="friay" selected>Friday</option>
-                                            <option value="HMsaturday" id="saturday">Saturday</option>
-                                            <option value="HMsunday" id="sunday">Sunday</option>
-                                        </select>
-                        
+                                <div id='innovis-toolbox'>
+
+                                    <!--<div id="toolheader">Toolbox</div>-->
+                                    <div id="innovis-toolrow">
+                                        <div class="form-group row">
+                                            <div class="col-sm-8">
+                                                <select class="form-control form-control-sm" id="policy">
+                                                    <option value="GP" id="innovis-default" selected>Greedy Policy
+                                                    </option>
+                                                    <option value="MR" id="innovis-entry-corridor">One-At-A-Time Rollour</option>
+                                                    <option value="OOMR" id="innovis-tundra">Order Optimized Rollout</option>
+                                                    <option value="SR" id="innovis-wetland">Standard Rollout</option>
+                                                </select>
+                                            </div>
+                                            <!-- <div class="col-sm-4">
+                                                <select class="form-control form-control-sm" id="innovis-attribute">
+                                                    <option value="unique_checkins" id="innovis-uniquecheckins">Unique
+                                                        Checkins</option>
+                                                    <option value="checkins" id="innovis-checkins">Total Checkins
+                                                    </option>
+                                                    <option value="foot_fall" id="innovis-footfall" selected>Foot Fall
+                                                    </option>
+                                                </select>
+                                            </div> -->
+                                            <div class="col-sm-4">
+                                                <!-- Rounded switch -->
+                                                <button id="randomize" type="button" class="btn btn-primary">Random State</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <svg id="spiderandfly"></svg>
-                                <button type="button" class="btn btn-secondary" id="heat_play">Play</button>
                             </div>
                         </div>
                         <div class="col-sm-4 mb-3">
                             <div class="viz-div innoviz-div">
                                 <div class="viz-header">Multi-Robot Repair Problem
-                                    <i class="fas fa-info-circle info-circle" onclick="sortedCirclesInfo()"></i>   
+                                    <i class="fas fa-info-circle info-circle" onclick="mrrpInfo()"></i>   
                                 </div>
-                                <svg id='innovis'></svg>
+                                <svg id='mrrp'>
+                                    <image href="../assets/mrrp.png" height="500px" width="500px"/>
+                                </svg>
                             </div>
                         </div>
                         <div class="col-sm-4 mb-3">
                             <div class="viz-div alluvis-div">
-                                <div class="viz-header">Group Violin Plot
-                                    <i class="fas fa-info-circle info-circle" onclick="groupViolinInfo()"></i>   
+                                <div class="viz-header">Flatland Challenge
+                                    <i class="fas fa-info-circle info-circle" onclick="flatlandInfo()"></i>   
                                 </div>
-                                <svg id='alluvis'></svg>
+                                <svg id='flatland'>
+                                    <image href="../assets/flatland.png" height="500px" width="500px"/>
+                                </svg>
                             </div>
                         </div>
                     </div>

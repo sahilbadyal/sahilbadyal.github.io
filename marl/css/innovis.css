@@ -1,8 +1,22 @@
-#innovis {
+#spiderandfly {
     width: 500px;
     height: 650px;
     display: block;
     margin: auto;
+}
+
+#mrrp {
+  width: 500px;
+  height: 650px;
+  display: block;
+  margin: auto;
+}
+
+#flatland {
+  width: 500px;
+  height: 650px;
+  display: block;
+  margin: auto;
 }
 
 div#innovis-toolrow {
