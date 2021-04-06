@@ -45,7 +45,7 @@
         </div> -->
     </div>
 
-    <div class="filter filter-open">
+    <!--<div class="filter filter-open">
         <a class="filter-header filter-header-open" id="toggle-menu">
             <span class="filter-header-text">
                 Filters
@@ -78,7 +78,7 @@
                     </div>
                 </span>
             </div>
-            <!--div class="filter-groups">
+            <div class="filter-groups">
 
                 <div class="filter-group">
                     <label class="chekbox-group-label">
@@ -148,20 +148,21 @@
                         </div>
                     </span>
                 </div>
-            </div-->
+            </div>
 
         </div>
-    </div>
+        </div>
+        -->
     <div class='content-body content-body-menu-open'>
         <div class="content-div">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="detailed" data-toggle="tab" href="#detail">Detailed</a>
+                    <a class="nav-link" data-toggle="tab" href="#overview">Multi-Agent Rreinforcement Learning Problems</a>
                 </li>
                 <!-- <li class="nav-item">
+                    <a class="nav-link" id="detailed" data-toggle="tab" href="#detail">Detailed</a>
+                </li>
+                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#details_groups">Groups</a>
                 </li> -->
                 <!-- <li class="nav-item">
@@ -171,9 +172,9 @@
             <div class="tab-content">
                 <div class="tab-pane fade" id="overview">
                     <div class="row">
-                        <div class="col-sm-6 mb-3">
+                        <div class="col-sm-4 mb-3">
                             <div class="viz-div heat-viz-div">
-                                <div class="viz-header">Check-in Heat Map
+                                <div class="viz-header">Spider and Fly Problem
                                     <i class="fas fa-info-circle info-circle" onclick="checkinHeatMapInfo()"></i>     
                                 </div>
                                 <div class="select-day">
@@ -186,178 +187,34 @@
                                         </select>
                         
                                 </div>
-                                <svg id="heatmap"></svg>
+                                <svg id="spiderandfly"></svg>
                                 <button type="button" class="btn btn-secondary" id="heat_play">Play</button>
                             </div>
                         </div>
-                        <div class="col-sm-6 mb-3">
+                        <div class="col-sm-4 mb-3">
                             <div class="viz-div innoviz-div">
-                                <div class="viz-header">Sorted Circles
+                                <div class="viz-header">Multi-Robot Repair Problem
                                     <i class="fas fa-info-circle info-circle" onclick="sortedCirclesInfo()"></i>   
-                                </div>
-                                <div id='innovis-toolbox'>
-
-                                    <!--<div id="toolheader">Toolbox</div>-->
-                                    <div id="innovis-toolrow">
-                                        <div class="form-group row">
-                                            <div class="col-sm-4">
-                                                <select class="form-control form-control-sm" id="innovis-region">
-                                                    <option value="all" id="innovis-default" selected>All Regions
-                                                    </option>
-                                                    <option value="entryCorridor" id="innovis-entry-corridor">Entry
-                                                        Corridor</option>
-                                                    <option value="tunda" id="innovis-tundra">Tundra Land</option>
-                                                    <option value="wetLand" id="innovis-wetland">Wet Land</option>
-                                                    <option value="kiddleLand" id="innovis-kiddieland">Kiddie Land
-                                                    </option>
-                                                    <option value="CoasterAlley" id="innovis-coasteralley">Coaster Alley
-                                                    </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <select class="form-control form-control-sm" id="innovis-attribute">
-                                                    <option value="unique_checkins" id="innovis-uniquecheckins">Unique
-                                                        Checkins</option>
-                                                    <option value="checkins" id="innovis-checkins">Total Checkins
-                                                    </option>
-                                                    <option value="foot_fall" id="innovis-footfall" selected>Foot Fall
-                                                    </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <!-- Rounded switch -->
-                                                <label class="switch">
-                                                    <input type="checkbox" id="innovis-sorted">
-                                                    <span class="slider round"></span>
-                                                </label>
-                                                <label for="innovis-sorted"
-                                                    class="col-form-label col-form-label-sm">Sorted</label>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 <svg id='innovis'></svg>
                             </div>
-
                         </div>
-                        <div class="col-sm-12 mb-3">
+                        <div class="col-sm-4 mb-3">
                             <div class="viz-div alluvis-div">
                                 <div class="viz-header">Group Violin Plot
                                     <i class="fas fa-info-circle info-circle" onclick="groupViolinInfo()"></i>   
-                                </div>
-                                <div id='innovis-toolbox'>
-                                    <div id="innovis-toolrow">
-                                        <div class="form-group row">
-                                            &nbsp;&nbsp;Selected Checkin Location:
-                                            <div class="col-sm-2">
-                                                <select class="form-control form-control-sm"
-                                                    id="alluvis-ride-select"></select> </select>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 <svg id='alluvis'></svg>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="detail">
-                    <div class="row">
-                        <div class="col-sm-6 mb-3">
-                            <div class="viz-div flow-viz-div">
-                                <div class="wrapper"> 
-                                    <div class="viz-header flow-viz-header">Dynamic Traffic Flow
-                                    <i class="fas fa-info-circle info-circle" onclick="trafficFlowinfo()"></i>                                       
-                                    </div>
-                                    <div class="form-group flow-form">
-                                        <!-- <label for="flow_days">Days </label> -->
-                                        <select class="form-control" id="flow_days" placeholder="Select the day"
-                                            onchange="flowDrawChart()">
-                                            <option value="Friday" id="fri" selected>Friday</option>
-                                            <option value="Saturday" id="sat">Saturday</option>
-                                            <option value="Sunday" id="sun">Sunday</option>
-                                        </select>
-                                    </div>
-                                    <img src="assets/ParkMap.jpg" width="700px" class="flow_parkImage" alt="">
-                                    <svg id='flow_div'></svg>
-                                    <button type="button" class="btn btn-secondary" id="flow_play">Play</button>
-                                </div>  
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 mb-3">
-                            <!-- <div class="viz-div "> -->
-                                <!-- <div class="col-sm-12"> -->
-                                <div class="viz-div cluster-movement-div">
-                                    <div class="viz-header flow-viz-header">Group Flow
-                                        <i class="fas fa-info-circle info-circle" onclick="grpFlowInfo()"></i>   
-                                    </div>
-                                    <div class="form-group cluster-form">
-                                        <label for="cluster_days">Days </label>
-                                        <select class="form-control" id="cluster_days" placeholder="Select the day"
-                                            onchange="drawClusterPlot()">
-                                            <option value="Friday" id="friday" selected>Friday</option>
-                                            <option value="Saturday" id="sat">Saturday</option>
-                                            <option value="Sunday" id="sun">Sunday</option>
-                                        </select>
-                                    </div>
-                                    <img src="assets/ParkMap.jpg" width="700px" class="cluster_parkImage" alt="">
-                                    <svg id='cluster_div'></svg>
-                                    <button type="button" class="btn btn-secondary" id="cluster_play">Play</button>
-                                </div>
-                                <!-- </div> -->
-
-                            <!-- </div> -->
-
-                        </div>
-                        <div class="col-sm-12 mb-3">
-                            <div class="viz-div distance-plot-div">
-                                <div class="viz-header distance-viz-header">Distance Plot
-                                    <i class="fas fa-info-circle info-circle" onclick="distPlotInfo()"></i>
-                                </div>
-                                <div class="form-group distance-form">
-                                        <select class="form-control" id="clusterId" placeholder="Select the day" onchange="onClickDistPlot()">
-                                            <option value="0" id="cluster_1" selected>Cluster 1</option>
-                                            <option value="1" id="cluster_2">Cluster 2</option>
-                                            <option value="2" id="cluster_3">Cluster 3</option>
-                                            <option value="3" id="cluster_4">Cluster 4</option>
-                                            <option value="4" id="cluster_5">Cluster 5</option>
-                                            <option value="5" id="cluster_6">Cluster 6</option>
-                                            <option value="6" id="cluster_7">Cluster 7</option>
-                                            <option value="7" id="cluster_8">Cluster 8</option>
-                                            <option value="8" id="cluster_9">Cluster 9</option>
-                                            <option value="9" id="cluster_10">Cluster 10</option>
-                                            <option value="10" id="cluster_11">Cluster 11</option>
-                                            <option value="11" id="cluster_12">Cluster 12</option>
-                                        </select>
-                                </div>
-                                <svg id='distance_plot'></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="tab-pane fade" id="details_groups">
-                    <div class="col-sm-12 mb-3 group-viz">
-                        <h3>
-                            Groups
-                        </h3>
-
-                    </div>
-                </div> -->
-                <!-- <div class="tab-pane fade" id="about">
-                    <div class="col-sm-12 mb-3 about-text">
-                        <h3>
-                            ABOUT PAGE
-                        </h3>
-
-                    </div>
-                </div> -->
             </div>
         </div>
 
     </div>
     <div class='footer'>
-        Source: <a href='http://vacommunity.org/2015+VAST+Challenge%3A+MC1' target='_blank'>2015 VAST MC-1</a>
+        Source: <a href='/marl' target='_blank'>A comparitive study of Multi-Agent Reinforcement Learning on Real-World Problems</a>
     </div>
 
 
