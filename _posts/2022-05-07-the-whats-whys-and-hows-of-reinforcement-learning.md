@@ -14,7 +14,7 @@ tags: [deeplearning, ai, machinelearning, reinforcementlearning, rl, rlbooks, ge
   }
 </style>
 
-![RL Agent](../../../../assets/images/RL_agent.png){:class="img-responsive"}
+![RL Agent](../../../../assets/images/Rl_agent.png){:class="img-responsive"}
 
 This post is for anyone who wants to understand the three big questions (WWH) of Reinforcement Learning. 
 Whether you are a beginner or a machine learning veteran, chances are that you have heard about Reinforcement learning 
