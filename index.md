@@ -33,6 +33,11 @@ tagline: ML Researcher & Data Science Manager — GenAI, NLP, and Robotics
     color: white;
     text-decoration: none;
   }
+  .img-responsive {
+    width: 30%;
+    float: left;
+    padding: 15px;
+  }
   .bio {
     margin-bottom: 32px;
     line-height: 1.75;
@@ -89,12 +94,14 @@ tagline: ML Researcher & Data Science Manager — GenAI, NLP, and Robotics
   <a href="https://scholar.google.co.in/citations?hl=en&user=T65KqaMAAAAJ" class="btn" target="_blank">Publications</a>
 </div>
 
+[![src:https://imgs.xkcd.com/comics/progeny.png](assets/images/progeny.png){:class="img-responsive"}](https://xkcd.com/894/){: target="_blank"}
+
 <div class="bio">
   <p>I am a Machine Learning Researcher and Data Science Manager with 7+ years of experience designing and deploying novel methods in Generative AI, NLP, and Robotics. Currently, at <a href="https://capitalone.com" target="_blank">Capital One</a>, I lead teams building next-generation LLM systems, prompt optimization workflows, and high-valuation risk model integrations.</p>
 
   <p>My technical journey blends deep theoretical research with web-scale production engineering. I have successfully built and optimized conversational agents, fraud-detection transformer models, and deep-learning recommendation systems that scale to millions of users.</p>
 
-  <p>As a published author in EACL, COLING, and IEEE, I love tackling complex problems in computational linguistics and multi-agent reinforcement learning. I hold an MS in Computer Science (4.0 GPA) from Arizona State University.</p>
+  <p>As a published author in EACL, COLING, and IEEE, I love tackling complex problems in computational linguistics and multi-agent reinforcement learning. I hold an MS in Computer Science from Arizona State University.</p>
 
   <div class="expertise"><strong>Core Expertise:</strong> Generative AI, LLM Agents, NLP, Multi-Agent Reinforcement Learning (MARL), PyTorch, JAX, Distributed Systems, and MLOps.</div>
 </div>
