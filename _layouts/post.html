@@ -6,4 +6,73 @@ layout: default
 {% include JB/setup %}
 {% feed_meta %}
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<style>
+  #toc-container {
+    background: #f7f7f7;
+    border-left: 3px solid #BADA55;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+    font-size: 0.88em;
+  }
+  #toc-container .toc-title {
+    font-weight: bold;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    font-size: 0.78em;
+    letter-spacing: 0.06em;
+    color: #888;
+  }
+  #toc-container ol {
+    margin: 0;
+    padding-left: 18px;
+  }
+  #toc-container li {
+    margin: 5px 0;
+    line-height: 1.4;
+  }
+  #toc-container a {
+    text-decoration: none;
+    color: #444;
+  }
+  #toc-container a:hover {
+    color: #BADA55;
+    text-decoration: underline;
+  }
+  #toc-container .toc-h3 {
+    list-style-type: none;
+    padding-left: 14px;
+  }
+  #toc-container .toc-h3::before {
+    content: "– ";
+    color: #bbb;
+  }
+</style>
+
 {% include themes/the-minimum/post.html %}
+
+<script>
+(function() {
+  var content = document.querySelector('.entry-content');
+  var toc = document.getElementById('toc-container');
+  if (!content || !toc) return;
+
+  var headings = content.querySelectorAll('h2, h3');
+  if (headings.length < 3) return;
+
+  var html = '<p class="toc-title">Contents</p><ol>';
+  headings.forEach(function(h) {
+    var id = h.id;
+    if (!id) {
+      id = h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      h.id = id;
+    }
+    var cls = h.tagName === 'H3' ? ' class="toc-h3"' : '';
+    html += '<li' + cls + '><a href="#' + id + '">' + h.textContent + '</a></li>';
+  });
+  html += '</ol>';
+
+  toc.innerHTML = html;
+  toc.style.display = 'block';
+})();
+</script>
